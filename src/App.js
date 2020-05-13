@@ -1,9 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
 
-function App() {
-  return (
+
+
+    return(
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -13,14 +12,11 @@ function App() {
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200507172357/mj-featureee.jpeg">
+      </img>
     </div>
   );
 }
-
+}
 export default App;
